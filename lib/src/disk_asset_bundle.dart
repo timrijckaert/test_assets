@@ -12,7 +12,7 @@ class DiskAssetBundle extends CachingAssetBundle {
   static const _assetManifestDotJson = 'AssetManifest.json';
 
   /// Creates a [DiskAssetBundle] by loading [globs] of assets under `assets/`.
-  static Future<AssetBundle> loadGlob(Iterable<String> globs, String fontName,
+  static Future<AssetBundle> loadFonts(Iterable<String> globs, String fontName,
       {String from = 'assets'}) async {
     final cache = <String, ByteData>{};
     final fontLoader = FontLoader(fontName);
