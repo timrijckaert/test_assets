@@ -1,0 +1,19 @@
+name: test_assets
+description: Access your assets folder from your Widget tests
+version: 0.0.1
+author: Matan Lurey <matan.lurey@gmail.com>, Tim Rijckaert <tim.rijckaert@gmail.com>
+homepage: https://github.com/flutter/flutter/issues/12999#issuecomment-450677379
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  glob: ^1.0.3
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
